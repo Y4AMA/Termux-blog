@@ -1,4 +1,4 @@
-# 🐱 Neko Coding - Termux Blog
+#  Neko Coding - Termux Blog
 
 ![Termux Banner](https://raw.githubusercontent.com/termux/termux-app/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png)
 

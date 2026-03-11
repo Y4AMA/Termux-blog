@@ -8,15 +8,15 @@ Selamat datang di **Neko Coding** - blog pribadi yang membahas seputar Termux, p
 
 Blog ini dibuat untuk mendokumentasikan perjalanan gue belajar Termux dan hal-hal teknis lainnya. Dari yang beginner sampai yang bikin pusing, semua bakal dicatet di sini.
 
-**Akses blog:** [neko-coding.zaptor.org](http://neko-coding.zaptor.org)
+**Akses blog:** [neko-coding.zapto.org](http://neko-coding.zaptor.org)
 
 ## 📋 Daftar Konten
 
 ### 🔰 Tutorial Dasar Termux
-- [Installasi Termux di Android](link-ke-post)
-- [Perintah Dasar Termux untuk Pemula](link-ke-post)
-- [Setup Storage dan Permission](link-ke-post)
-- [Kustomisasi tampilan Termux](link-ke-post)
+- [Installasi Termux di Android](https://f-droid.org/id/packages/com.termux/)
+- [Perintah Dasar Termux untuk Pemula](neko-coding.zapto.org)
+- [Setup Storage dan Permission](neko-coding.zapto.org)
+- [Kustomisasi tampilan Termux](neko-coding.zapto.org)
 
 ### ⚙️ Tools & Module
 - [Install Module Python Lengkap](link-ke-post)

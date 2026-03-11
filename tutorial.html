@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TERMUX CODE NEWS - Tutorials</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Georgia, 'Times New Roman', serif;
+            background: #e8e8e8;
+            color: #1a1a1a;
+            line-height: 1.6;
+        }
+
+        /* Header/Masthead */
+        header {
+            background: #333;
+            color: #fff;
+            padding: 2rem;
+            border-bottom: 5px solid #666;
+            text-align: center;
+        }
+
+        .masthead {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .masthead h1 {
+            font-size: 3rem;
+            font-weight: normal;
+            letter-spacing: 0.2em;
+            border: 3px solid #fff;
+            padding: 1rem;
+            margin-bottom: 0.5rem;
+            font-family: 'Courier New', monospace;
+            font-weight: bold;
+        }
+
+        .masthead p {
+            font-size: 0.9rem;
+            letter-spacing: 0.1em;
+            color: #aaa;
+        }
+
+        /* Navigation */
+        nav {
+            background: #555;
+            border-bottom: 2px solid #999;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            max-width: 1200px;
+            margin: 0 auto;
+            flex-wrap: wrap;
+        }
+
+        nav li {
+            border-right: 1px solid #777;
+        }
+
+        nav li:last-child {
+            border-right: none;
+        }
+
+        nav a {
+            display: block;
+            padding: 0.8rem 1.5rem;
+            color: #fff;
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: background 0.2s;
+        }
+
+        nav a:hover {
+            background: #777;
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        /* Main Content */
+        .main-content {
+            background: #fff;
+            border: 3px solid #666;
+            box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+            padding: 2rem;
+        }
+
+        .section-header {
+            background: #333;
+            color: #fff;
+            padding: 0.8rem;
+            margin-bottom: 1.5rem;
+            font-size: 1rem;
+            font-weight: bold;
+            border-left: 5px solid #666;
+        }
+
+        .main-content h2 {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+            color: #333;
+            line-height: 1.3;
+            font-weight: bold;
+            border-bottom: 2px solid #666;
+            padding-bottom: 0.5rem;
+        }
+
+        .featured-meta {
+            font-size: 0.85rem;
+            color: #666;
+            margin-bottom: 1.5rem;
+            font-style: italic;
+        }
+
+        .main-content p {
+            margin-bottom: 1rem;
+            text-align: justify;
+            line-height: 1.8;
+        }
+
+        .main-content h3 {
+            font-size: 1.2rem;
+            margin: 1.5rem 0 0.5rem 0;
+            color: #333;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 0.3rem;
+        }
+
+        .main-content ul {
+            margin: 1rem 0 1rem 2rem;
+        }
+
+        .main-content li {
+            margin-bottom: 0.5rem;
+        }
+
+        code {
+            background: #f0f0f0;
+            padding: 0.2rem 0.4rem;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            color: #333;
+        }
+
+        pre {
+            background: #f0f0f0;
+            padding: 1rem;
+            border-left: 3px solid #666;
+            margin: 1rem 0;
+            overflow-x: auto;
+            line-height: 1.5;
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 2rem;
+            margin-top: 2rem;
+            text-align: center;
+            border-top: 5px solid #666;
+            font-size: 0.9rem;
+        }
+
+        footer p {
+            margin-bottom: 0.5rem;
+        }
+
+        footer a {
+            color: #aaa;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        footer a:hover {
+            color: #fff;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .masthead h1 {
+                font-size: 1.8rem;
+            }
+
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav li {
+                border-right: none;
+                border-bottom: 1px solid #777;
+            }
+
+            nav li:last-child {
+                border-bottom: none;
+            }
+
+            .main-content {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header/Masthead -->
+    <header>
+        <div class="masthead">
+            <h1>TERMUX CODE</h1>
+            <p>CODING TERMUX</p>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="dashboard.html">Home</a></li>
+            <li><a href="tutorial.html">Tutorials</a></li>
+            <li><a href="#tools">Tools & Resources</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="section-header">TUTORIALS</div>
+            <h2>Panduan dan Tutorial Termux</h2>
+            <p class="featured-meta">Belajar Coding dengan termux</p>
+            <p class="featured-meta">Instalasi Module Yang Dibutuhkan Sebelum Memulai Coding</p>
+            
+            <h3>Tutorial Tersedia:</h3>
+            <p>Disini akan berisi berbagai tutorial lengkap untuk membantu kamu belajar coding dan menggunakan Termux. Setiap tutorial dirancang step-by-step dari dasar hingga menjadi developer</p>
+            
+            <h3>Langkah Langkah Penggunaan TERMUX</h3>
+            
+            <li> apt update && apt upgrade -y</li>
+            <li> termux-change-repo</li>
+            <li> termux-setup-storage</li>
+            <li> pkg install python-pip</li>
+            <li> pkg install git</li>
+            <li> pkg install curl wget nano vim -y</li>
+            <li> pkg install nodejs -y</li>
+            <li> pkg instll openssh -y</li>
+            <li> pkg install zip unzip tar -y</li>
+            <li> pkg install toilet figlet -y</li>
+            <li>pip install requests beautifulsoup4</li>
+            <li> pip install colorama urllib3</li>
+            <li> pip install lxml pygments</li>
+            <li> pip install flask pyyaml</li>
+            <li> pip install pillow python-dateutil</li>
+            <p>=====================================</p>
+            <p> JANGAN LUPA FOLLOW :3 </p>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 TERMUX CODE. ALL RIGHTS RESERVED.</p>
+        <p style="margin-top: 1rem; font-size: 0.85rem;">Contact: <a href="https://t.me/kurosekainamo" style="color: #aaa; text-decoration: none;">telegram : t.me/kurosekainamo</a></p>
+    </footer>
+</body>
+</html>
